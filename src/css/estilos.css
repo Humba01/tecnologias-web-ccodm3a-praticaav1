@@ -16,7 +16,9 @@ header {
     padding-left: 8px;
     padding-right: 8px;
     flex: 1;
-    background-color: #FFFFFF;
+    background-color: #0099ff;
+
+    font-family: "Open-Sans", sans-serif;
 }
 
 nav ul li {
@@ -32,7 +34,7 @@ ul {
 }
 
 h1 {
-    color: #2284ff;
+    color: #000000;
     font-size: 1.25rem;
 }
 
@@ -42,7 +44,7 @@ h2 {
 }
 
 a {
-    color: #2284ff;
+    color: #000000;
     text-decoration: none;
 }
 

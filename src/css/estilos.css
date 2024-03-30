@@ -21,6 +21,7 @@ html, body {
   display: flex;
   flex: 1;
   padding: 1vw;
+  padding-left: 2.5vw;
 }
 
 .pagina_cabecalho nav {
@@ -71,31 +72,35 @@ html, body {
   display: flex;
   flex: 10;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
 }
 
 .pagina_corpo section {
   display: flex;
   padding: 1vw;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .pagina_corpo section h2 {
   display: flex;
   font-family: "Montserrat", sans-serif;
   width: 100%;
+  margin-top: 2vw;
 }
 
 table {
   font-family: "Montserrat", sans-serif;
   margin-top: 1vw;
-  width: 100%;
+  width: 98%;
+  text-wrap: wrap;
 }
 
 td, th {
   text-align: center;
   padding: 0.5vw;
   border: 1px solid black;
+  width: 50%;
 }
 
 label, input {
